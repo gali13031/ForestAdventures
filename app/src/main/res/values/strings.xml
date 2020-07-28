@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ForestAdventures</string>
+    <string name="scoreTitle_str">Scoreboard</string>
+    <string name="startBtn_str">Start to play</string>
+    <string name="hello_str">Hello!</string>
+    <string name="score_str">Score:</string>
+    <string name="tapstart_str">Tap to start!</string>
+    <string name="leveltwo_str">Level 2!</string>
+    <string name="name_str">Enter your name</string>
+    <string name="ok_str">Ok</string>
+    <string name="scoreResult_str">Your score is:</string>
+    <string name="entername_str">Please enter your name!</string>
+    <string name="yes_str">Yes</string>
+    <string name="no_str">No</string>
+    <string name="exit_str">Are you sure you want to exit?</string>
+</resources>

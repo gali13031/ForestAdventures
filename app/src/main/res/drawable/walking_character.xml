@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/characterone"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/charactertwo"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/characterthree"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/characterfour"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/characterfive"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/charactersix"
+        android:duration="180"/>
+
+</animation-list>

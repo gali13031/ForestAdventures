@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/banana1"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana2"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana3"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana4"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana5"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana6"
+        android:duration="130"/>
+    <item
+        android:drawable="@drawable/banana7"
+        android:duration="130"/>
+</animation-list>

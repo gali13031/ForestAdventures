@@ -1,0 +1,63 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/victory_en"
+    android:id="@+id/winning"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/fireworks_gif"/>
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/score"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/unkempt_bold"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/name_et"
+            android:maxLines="1"
+            android:fontFamily="@font/unkempt_bold"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/name"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:hint="@string/name_str" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/unkempt_bold"
+            android:background="@drawable/button_shape"
+            android:text="@string/ok_str"
+            android:layout_marginTop="155dp"
+            android:textAllCaps="false"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

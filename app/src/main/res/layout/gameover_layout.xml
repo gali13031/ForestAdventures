@@ -1,0 +1,58 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_gameover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gameover_background"/>
+
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/score"
+            android:fontFamily="@font/unkempt_bold"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/name"
+            android:fontFamily="@font/unkempt_bold"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:hint="@string/name_str" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/unkempt_bold"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:text="@string/ok_str"
+            android:layout_marginBottom="60dp"
+            android:textAllCaps="false"/>
+
+    </FrameLayout>
+
+</LinearLayout>

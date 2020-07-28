@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ForestAdventures</string>
+    <string name="scoreTitle_str">לוח תוצאות</string>
+    <string name="startBtn_str">התחל/י לשחק</string>
+    <string name="hello_str">שלום!</string>
+    <string name="score_str">ניקוד:</string>
+    <string name="tapstart_str">לחצ/י כדי להתחיל!</string>
+    <string name="leveltwo_str">שלב 2!</string>
+    <string name="name_str">הכנס/י את שמך</string>
+    <string name="ok_str">המשך</string>
+    <string name="scoreResult_str">הניקוד שלך הוא:</string>
+    <string name="entername_str">אנא הכנס/י את שמך!</string>
+    <string name="yes_str">כן</string>
+    <string name="exit_str">את/ה בטוח/ה שאת/ה רוצה לצאת?</string>
+    <string name="no_str">לא</string>
+</resources>
